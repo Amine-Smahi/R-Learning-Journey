@@ -1,3 +1,6 @@
+#Set project workspace (replace with your project wordspace)
+setwd('/home/amine-smahi/Documents/R/TP1')
+
 #Read Data from csv file
 df = read.csv2('data.csv', header = TRUE, sep = ";",quote = "\"")
 
