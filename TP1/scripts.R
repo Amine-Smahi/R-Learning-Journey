@@ -10,3 +10,5 @@ df2 =  read.table('data.txt', header = TRUE, sep = "\t",  quote = "\"")
 #Open file explorator
 df3 = read.csv2(file.choose(), header = TRUE, sep = ";",  quote = "\"")
 
+#Show headers (names(df))
+colnames(df)
