@@ -21,6 +21,7 @@ To run the project correctly
 ### Todo
 * Naming the tps by their goals
 * Name better the folders
+* Better variable naming
 
 ### License
 The project is under MIT License
