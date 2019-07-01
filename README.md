@@ -4,7 +4,7 @@
 <h1 align="center">R Learning Journey</h1>
 <p align="center">Some of the projects i made when starting to learn R for Data Science at the university</p>
 
-
+<br><br>
 ## Notice
 To run the project correctly 
 1) navigate to the specific tp
