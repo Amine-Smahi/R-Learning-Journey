@@ -16,12 +16,12 @@ indice=sample(nrow(tit), 100)
 training=tit[ indice, ] 
 test=tit[-indice, ]
 
-dim(traing)
+dim(training)
 dim(test) 
 
 prop.table(table(training$Survived)) 
 
-ar=rpart(Survived~., data=traing, method="class") 
+ar=rpart(Survived~., data=training, method="class") 
 rpart.plot(ar) 
 
 pred=predict(ar, test, type="class") 
